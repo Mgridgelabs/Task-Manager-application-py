@@ -56,7 +56,7 @@ Session = sessionmaker(bind=engine)
 session = Session()
 
 # Specify the email of the user you want to delete
-user_email = 'maina@gmail.com'
+user_email = 'demo@demo.com'
 
 # Fetch the user
 user = session.query(User).filter_by(email=user_email).first()
